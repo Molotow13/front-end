@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Регистрация</h1>
+    <div>
+        <a href="catalog.html">Каталог</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="page-nav.html">Навигация</a>
+        <a href="articles.html">Статьи</a>
+        <a href="/index2.html">Главная страница</a>
+
+    </div>
+    <form action="registration.php" method="get">
+        <fieldset>
+            <legend>#1</legend>
+
+            <div>
+                <label for="surname">Фамилия</label>
+                <input name="surname" id="surname" type="text" placeholder="Фамилия">
+            </div>
+
+            <div>
+                <label for="name">Имя</label>
+                <input name="name" id="name" type="text" placeholder="Имя">
+            </div>
+
+            <div>
+                <label for="patronymic">Отчество</label>
+                <input name="patronymic" id="patronymic" type="text" placeholder="Отчество">
+            </div>
+
+            <div>
+                <label for="password">Пароль</label>
+                <input name="password" id="password" type="password" placeholder="Пароль">
+            </div>
+
+            <div>
+                <label for="email">Имейл</label>
+                <input name="email" id="email" type="email" placeholder="Имейл">
+            </div>
+
+            <div>
+                <label for="url">Адрес сайта</label>
+                <input name="url" id="url" type="url" value="http://mysite.name">
+            </div>
+
+            <div>
+                <label for="date">Дата рождения</label>
+                <input name="date" id="date" type="date">
+            </div>
+
+            <div>
+                <label for="file">Добавить фотографию</label>
+                <input name="file" id="file" type="file">
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>#2</legend>
+            <p>Укажите пол</p>
+            <div>
+                <label for="gender-male">Мужской</label>
+                <input id="gender-male" type="radio" name="gender" value="male">
+            </div>
+            <div>
+                <label for="gender-female">Женский</label>
+                <input id="gender-female" type="radio" name="gender" value="female">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>#3</legend>
+            <p>Выберите кухню</p>
+            <div>
+                <label for="ua">Украинская</label>
+                <input type="checkbox" name="kitchen" value="ua" id="ua">
+            </div>
+            <div>
+                <label for="gr">Грузинская</label>
+                <input type="checkbox" name="kitchen" value="gr" id="gr">
+            </div>
+            <div>
+                <label for="it">Итальянская</label>
+                <input type="checkbox" name="kitchen" value="it" id="it">
+            </div>
+            <div>
+                <label for="fr">Французская</label>
+                <input type="checkbox" name="kitchen" value="fr" id="fr">
+            </div>
+            <div>
+                <label for="american">Американская</label>
+                <input type="checkbox" name="kitchen" value="american" id="american">
+            </div>
+            <div>
+                <label for="ch">Китайская</label>
+                <input type="checkbox" name="kitchen" value="ch" id="ch">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>#4</legend>
+            <label for="txt">О себе</label>
+            <textarea name="txt" id="txt" cols="30" rows="10"
+                placeholder="Введите подробную информацию"></textarea>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>#5</legend>
+            <button type="submit">Зарегистрироваться</button>
+            <button type="reset">Сбросить</button>
+        </fieldset>
+    </form>
+
+
+
+    <footer>&copy; by Molotow</footer>
+</body>
+
+</html>
