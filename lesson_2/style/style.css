@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+fieldset {
+  max-width: 500px;
+  background-color: lightgrey;
+  margin: 1em auto 1.5em;
+}
+input {
+  width: 100%;
+  padding: 0.5em 1em;
+}
+
+input[type="file"] {
+  padding: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+}
+
+textarea {
+  width: 100%;
+}
+
+.form-group {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.form-group-sm {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.text-area {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    resize: vertical;
+    min-height: 75px;
+    max-height: 175px;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 0.5em 1em ;
+}
